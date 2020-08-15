@@ -1,0 +1,114 @@
+.cls-1, .cls-2 {
+    fill: none;
+    stroke-miterlimit: 10;
+    stroke-width: 7px;
+}
+
+.cls-1 {
+    stroke: #fff;
+}
+
+.cls-2 {
+    stroke: #000;
+}
+
+/*
+Start Of Black Text (Back)
+*/
+
+#logo path:nth-child(1) {
+    stroke-dasharray: 998px;
+    stroke-dashoffset: 998px;
+    animation: line-anim 2s ease forwards 1.5s, fill-black 1.5s ease forwards 4.5s;
+}
+
+#logo path:nth-child(2) {
+    stroke-dasharray: 750px;
+    stroke-dashoffset: 750px;
+    animation: line-anim 2s ease forwards 1.2s, fill-black 1.5s ease forwards 4.5s;    
+}
+
+
+#logo path:nth-child(3) {
+    stroke-dasharray:  725px;
+    stroke-dashoffset: 725px;
+    animation: line-anim 2s ease forwards 0.9s, fill-black 1.5s ease forwards 4.5s;
+}
+
+
+#logo path:nth-child(4) {
+    stroke-dasharray:  1142px;
+    stroke-dashoffset: 1142px;
+    animation: line-anim 2s ease forwards 0.6s, fill-black 1.5s ease forwards 4.5s;
+}
+
+
+#logo path:nth-child(5) {
+    stroke-dasharray:  994px;
+    stroke-dashoffset: 994px;
+    animation: line-anim 2s ease forwards 0.3s, fill-black 1.5s ease forwards 4.5s;
+}
+
+
+#logo path:nth-child(6) {
+    stroke-dasharray:  978px;
+    stroke-dashoffset: 978px;
+    animation: line-anim 2s ease forwards, fill-black 1.5s ease forwards 4.5s;
+}
+
+/*
+Start Of White Text (Front)
+*/
+
+#logo path:nth-child(7) {
+    stroke-dasharray:  998px;
+    stroke-dashoffset: 998px;
+    animation: line-anim 2s ease forwards 3s, fill-white 1.5s ease forwards 4.5s;
+}
+
+
+#logo path:nth-child(8) {
+    stroke-dasharray:  751px;
+    stroke-dashoffset: 751px;
+    animation: line-anim 2s ease forwards 2.7s, fill-white 1.5s ease forwards 4.5s;
+}
+
+
+#logo path:nth-child(9) {
+    stroke-dasharray:  725px;
+    stroke-dashoffset: 725px;
+    animation: line-anim 2s ease forwards 2.4s, fill-white 1.5s ease forwards 4.5s;
+}
+
+
+#logo path:nth-child(10) {
+    stroke-dasharray:  1225px;
+    stroke-dashoffset: 1225px;
+    animation: line-anim 2s ease forwards 2.1s, fill-white 1.5s ease forwards 4.5s;
+}
+
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0px; 
+    }
+}
+
+@keyframes fill-white {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: #fff;
+    }
+}
+
+@keyframes fill-black {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: #000;
+    }
+}
+
